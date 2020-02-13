@@ -548,12 +548,8 @@ ul {
 	align-items: center;
 }
 .case img {
-	max-width: 670px;
+	max-width: 80%;
 	margin-bottom: 1.5vh;
-}
-
-.case_text {
-	max-width: 100vw;
 }
 
 .sgn {
@@ -606,8 +602,6 @@ video {
 	width: 100%;
 	top: 0;
 	left: 0;
-	margin-top: -5vh;
-	margin-bottom: -5vh;
 }
 
 ul {
@@ -719,7 +713,7 @@ ul {
 }
 
 .case video {
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -728,6 +722,8 @@ ul {
 .case_text {
 	max-width: 100vw;
 	align-self: center;
+	padding-left: 140px;
+	padding-right: 140px;
 }
 
 .about-me {
@@ -958,12 +954,13 @@ ul {
 
 	.case video {
 		max-width: 100%;
-		margin-bottom: -2vh;
 	}
 
 	.case_text {
 		max-width: 100vw;
 		align-self: center;
+		padding-left: 65px;
+		padding-right: 65px;
 	}
 
 	.case_hero1 {
@@ -1090,7 +1087,7 @@ ul {
 
 	.case video {
 		max-width: 100%;
-		height: 100vh;
+		height: 50vh;
 		top: 0;
 		left: 0;
 	}
@@ -1110,6 +1107,8 @@ ul {
 	.case_text {
 		max-width: 100vw;
 		align-self: center;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 	.case-content {
@@ -1219,7 +1218,7 @@ ul {
 	}
 
 	.case video {
-		height: 100vh;
+		height: auto;
 		width: 100%;
 		top: 0;
 		left: 0;
@@ -1276,6 +1275,8 @@ ul {
 	.case_text {
 		max-width: 100vw;
 		align-self: center;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	.case-content {
@@ -1339,7 +1340,7 @@ ul {
 
 	.case video {
 		max-width: 100%;
-		height: 100vh;
+		height: 40vh;
 		top: 0;
 		left: 0;
 	}
