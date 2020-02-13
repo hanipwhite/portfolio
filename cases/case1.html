@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../helpers.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>portfolio</title>
+  </head>
+
+  <body>
+    <div class="case-content">
+      <div class="case_hero1"></div>
+      <nav>
+        <div class="flex-container">
+          <a href="/"><img src="../bilder/logo-hani.png" alt="logga"/></a>
+          <div class="nav-links">
+            <a href="/#work">Latest work</a>
+            <a href="/about-me.html">About me</a>
+            <a href="/fun.html">Fun</a>
+          </div>
+          <span
+            class="burgermenu"
+            style="font-size:30px;cursor:pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+        </div>
+      </nav>
+
+      <div id="mySidenav" class="sidenav">
+        <span class="closebtn" onclick="closeNav()">&times;</span>
+
+        <div class="latest_work"><a href="/#work">Latest work</a></div>
+        <div class="about_me_link"><a href="../about-me.html">About me</a></div>
+        <div class="about_me_link">
+          <a href="../fun.html">Fun</a>
+        </div>
+      </div>
+
+      <div class="case">
+        <!-- <div class="tillbaka_pil">
+          <a href="case2.html">
+            <img src="../bilder/arrow_right.svg" alt="tillbaka pil" />
+          </a>
+        </div> -->
+
+        <div class="case_text">
+          <div class="next_previous">
+            <a href="case3.html"> ← previous case </a>
+            <a href="case2.html">next case → </a>
+          </div>
+          <br />
+          <br />
+          <p>ISLAND OF LIGHT</p>
+          <!-- <h1>Island of light –</h1> -->
+          <h1>Interactive visualization of climate change.</h1>
+
+          <!-- <p>Tools: Figma, After Effects, Trapcode, Premiere Pro, Photoshop</p> -->
+          <h3>Case:</h3>
+          <p>
+            This was an individual project where we got a single week to deliver
+            an interactive solution to the client. The brief was to create an
+            experience-based interaction for the light festival Island of Light
+            that is held in Smögen every year.
+          </p>
+          <!-- <h4>
+            <span class="island-span"
+              >“Perfect oppurtunity to reach out to 30 000 visitors.”
+            </span>
+          </h4> -->
+          <video
+            controls
+            autoplay
+            muted
+            src="../bilder/sweden_movie.mp4"
+          ></video>
+
+          <div class="toggle-content-button">
+            <!-- <h5>Read more</h5> -->
+            <div class="read_more"><p>Read more ↓</p></div>
+          </div>
+
+          <div class="hidden-content">
+            <p>
+              The customer wants to increase participation and improve the
+              experience of the festival Island of Light. The product should be
+              adapted to a digital screen, such as a mobile or ipad, as it is
+              the primary communication channel during the festival in addition
+              to IRL elements.
+            </p>
+            <h3>Solution:</h3>
+            <p>
+              I created an interactive visualization of climate change in the
+              world with a focus on temperature increase. The user can see how
+              much temperature has increased during their lifetime, using a
+              color-coded map and also how it looks where they live. My idea is
+              that visitors interact with a digital screen like an ipad, but the
+              design can also be adapted to the mobile. The digital screen can
+              be located in a room. A kind of "interactive corner" for all
+              festival visitors to experience.
+            </p>
+            <video
+              controls
+              autoplay
+              muted
+              src="../bilder/movie_island.mp4"
+            ></video>
+
+            <h3>Process:</h3>
+            <p>
+              I wanted to take this opportunity to focus on the environmental
+              issue when the client mentioned that it could be an approach. To
+              create a more emotional effect on the visitor, I made the design
+              choice to let the user fill in the year of birth and where they
+              live. In this way, the user gets a more personal connection to
+              climate change, by seeing the change during their lifetime and how
+              much it has changed where they live.
+            </p>
+
+            <h3>Tools:</h3>
+            <p>In this project i used After Effects, Photoshop and Figma</p>
+            <div class="toggle-content-button">
+              <!-- <h5>Läs mindre</h5> -->
+              <div class="read_more"><p>Read less ↑</p></div>
+            </div>
+          </div>
+          <!-- HIDDEN CONTENT END -->
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../main.js"></script>
+  </body>
+</html>

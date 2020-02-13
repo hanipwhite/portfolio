@@ -1,0 +1,18 @@
+.hidden-content {
+  max-height: 0;
+  transition: max-height 0.1s ease-out;
+  overflow: hidden;
+}
+.show-content {
+  height: auto;
+  max-height: 500vh;
+  transition: max-height 0.3s ease-out;
+  overflow: initial;
+}
+.hide-button {
+  display: none;
+}
+
+.toggle-content-button {
+  cursor: pointer;
+}

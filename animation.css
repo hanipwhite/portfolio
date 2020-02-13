@@ -1,0 +1,37 @@
+.hide-loading {
+  animation: fade-out 0.4s;
+}
+.remove-from-dom {
+  visibility: hidden;
+}
+
+.delete-from-dom {
+  display: none;
+}
+
+.show-content {
+  animation: fade-in 2s;
+}
+
+.parent:not(:hover) .child.did-fade-in {
+  display: block;
+  animation: fade-out 0.4s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
