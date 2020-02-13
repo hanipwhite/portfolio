@@ -75,7 +75,7 @@ a {
 }
 
 .fun-3 {
-	background-image: url('bilder/branding.gif');
+	background-image: url('bilder/napoleon.gif');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1143,7 +1143,7 @@ ul {
 	}
 
 	.case_hero1 {
-		height: 35vh;
+		height: 40vh;
 		width: 100%;
 		/* z-index: -1; */
 		position: absolute;
@@ -1170,7 +1170,7 @@ ul {
 		margin-top: 5vh;
 	}
 	.case_hero3 {
-		height: 35vh;
+		height: 40vh;
 		width: 100%;
 		/* z-index: -1; */
 		position: absolute;
@@ -1182,7 +1182,7 @@ ul {
 		margin-top: 5vh;
 	}
 	.case_hero4 {
-		height: 35vh;
+		height: 40vh;
 		width: 100%;
 
 		margin-top: 8vh;
@@ -1297,15 +1297,18 @@ ul {
 	.case_hero2 {
 		margin-top: 5vh;
 		background-size: 100%;
+		height: 45vh;
 	}
 
 	.case_hero1 {
 		margin-top: 8vh;
 		background-size: cover;
+		height: 40vh;
 	}
 	.case_hero3 {
 		margin-top: 5vh;
-		background-size: contain;
+		background-size: cover;
+		height: 43vh;
 	}
 	.case_hero4 {
 		margin-top: 10vh;
