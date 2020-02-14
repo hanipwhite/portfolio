@@ -548,7 +548,7 @@ ul {
 	align-items: center;
 }
 .case img {
-	max-width: 80%;
+	max-width: 100%;
 	margin-bottom: 1.5vh;
 }
 
@@ -1357,10 +1357,12 @@ ul {
 	}
 
 	.case_hero2 {
+		height: 35vh;
 		margin-top: 30px;
 		background-size: contain;
 	}
 	.case_hero1 {
+		height: 35vh;
 		margin-top: 50px;
 		background-size: cover;
 	}
@@ -1370,6 +1372,7 @@ ul {
 		background-size: cover;
 	}
 	.case_hero4 {
+		height: 35vh;
 		margin-top: 8vh;
 		background-size: cover;
 	}
