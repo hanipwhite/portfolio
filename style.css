@@ -1308,7 +1308,7 @@ ul {
 	.case_hero3 {
 		margin-top: 5vh;
 		background-size: cover;
-		height: 43vh;
+		height: 40vh;
 	}
 	.case_hero4 {
 		margin-top: 10vh;
@@ -1365,6 +1365,7 @@ ul {
 		background-size: cover;
 	}
 	.case_hero3 {
+		height: 35vh;
 		margin-top: 50px;
 		background-size: cover;
 	}
